@@ -1,0 +1,10 @@
+# XNU patches for MSM8953 / Snapdragon 632 (onclite)
+# Applied in listed order after arch, soc, and os patch series.
+# Each line is a patch file path relative to patches/xnu/series directory.
+# Format: <patch-file>  or  # comment
+
+# SoC-specific XNU patches go here. Example:
+# msm8953-arm64-dt.patch
+# msm8953-clock-controller.patch
+
+# Empty series is valid when no SoC-specific patches are needed.

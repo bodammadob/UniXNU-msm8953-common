@@ -1,0 +1,10 @@
+schema_version = 2
+
+[soc]
+name = "MSM8953"
+description = "Qualcomm MSM8953 / Snapdragon 632 shared platform support for UniXNU"
+source_repository = "https://github.com/ishakumari5/edk2-msm"
+source_revision = "3aea0f807233d8aec683bed67ab6a5e62702058d"
+
+[components]
+include = ["ArmCpu", "ArmDTPlatform"]
